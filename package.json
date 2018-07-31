@@ -1,0 +1,24 @@
+{
+  "name": "globalts",
+  "version": "1.0.1",
+  "description": "Access runtime global object using typescript",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "redforks@gmail.com",
+  "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redforks/globalts"
+  },
+  "devDependencies": {
+    "mytslint": "^1.0.7",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
